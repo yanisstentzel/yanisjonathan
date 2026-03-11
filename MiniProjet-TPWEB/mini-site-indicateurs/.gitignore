@@ -1,0 +1,29 @@
+# add .env and other files such as dsstore and...
+
+# .env
+.env
+
+# .DS_Store
+.DS_Store   
+
+# node_modules
+node_modules/
+
+# build
+build/
+# logs
+logs/
+*.log
+
+# coverage
+coverage/
+
+# misc
+*.swp
+*.swo
+# IDEs
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
