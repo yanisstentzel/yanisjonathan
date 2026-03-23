@@ -1,17 +1,6 @@
--- SQL import generated from solves.csv
+-- 02_import_data.sql
+-- Import des donnees genere depuis solves.csv
 START TRANSACTION;
-
-CREATE TABLE IF NOT EXISTS solves (
-  result_rank INTEGER PRIMARY KEY,
-  person VARCHAR(200) NOT NULL,
-  solve_1 INTEGER NULL,
-  solve_2 INTEGER NULL,
-  solve_3 INTEGER NULL,
-  solve_4 INTEGER NULL,
-  solve_5 INTEGER NULL,
-  fastest_solve INTEGER NOT NULL,
-  country VARCHAR(100) NOT NULL
-);
 
 DELETE FROM solves;
 
